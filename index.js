@@ -28,7 +28,7 @@ function makeSound(key){
     switch(key){
 
         case "w":
-            var tom1=new Audio("./sounds/tom-1.mp3");
+            var tom1=new Audio("sounds/tom-1.mp3");
             tom1.play();
             break;
 
@@ -77,4 +77,5 @@ function buttonAnimation(currentKey){
     setTimeout(function() {
         activeButton.classList.remove("pressed");
     },100);
+
 }
